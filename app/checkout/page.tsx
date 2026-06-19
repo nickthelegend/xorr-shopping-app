@@ -188,7 +188,7 @@ export default function CheckoutPage() {
                                             Pay_Via_XORR
                                         </span>
                                     </div>
-                                    <span className="bg-green-500/10 border border-green-500/20 text-green-400 text-[10px] font-black px-2 py-0.5 rounded uppercase">0%_APR</span>
+                                    <span className="bg-primary/10 border border-primary/20 text-primary text-[10px] font-black px-2 py-0.5 rounded uppercase">Repaid from yield</span>
                                 </div>
                                 <p className="text-[11px] text-white/60 leading-relaxed font-medium">
                                     Buy now, pay never with your XORR credit line. Collateral-free settlement on Sui — repaid from yield.
