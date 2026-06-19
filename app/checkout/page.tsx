@@ -73,7 +73,7 @@ export default function CheckoutPage() {
 
             window.open(
                 result.checkoutUrl,
-                "Polaris_Secure_Settlement",
+                "XORR_Secure_Settlement",
                 `width=${width},height=${height},left=${left},top=${top},status=no,menubar=no,toolbar=no`
             );
 
@@ -185,13 +185,13 @@ export default function CheckoutPage() {
                                             <Zap className="w-4 h-4 text-white" />
                                         </div>
                                         <span className="font-black text-sm text-white uppercase tracking-tighter">
-                                            Pay_Via_Polaris
+                                            Pay_Via_XORR
                                         </span>
                                     </div>
                                     <span className="bg-green-500/10 border border-green-500/20 text-green-400 text-[10px] font-black px-2 py-0.5 rounded uppercase">0%_APR</span>
                                 </div>
                                 <p className="text-[11px] text-white/60 leading-relaxed font-medium">
-                                    Buy now, pay later with your Polaris Credit Limit. Zero-collateral, sub-second settlement on Sepolia.
+                                    Buy now, pay never with your XORR credit line. Collateral-free settlement on Sui — repaid from yield.
                                 </p>
                                 {loading && (
                                     <div className="absolute inset-0 bg-black/60 flex items-center justify-center backdrop-blur-sm">
@@ -244,7 +244,7 @@ export default function CheckoutPage() {
                     <div className="flex items-center gap-3 p-4 bg-white/5 rounded border border-white/10">
                         <ShieldCheck className="w-5 h-5 text-green-500" />
                         <span className="text-[10px] font-bold text-white/60 leading-tight uppercase tracking-wider">
-                            Secured by Sepolia Native Verification & Polaris Escrow Protocol
+                            Secured by Sui native verification & the XORR merchant-escrow protocol
                         </span>
                     </div>
                 </div>
